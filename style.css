@@ -3,15 +3,17 @@
     margin-left: auto;
     margin-right: auto;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 .newsletter {
     color: gray;
-    border: solid thin;
-    border-color: #cfcfcf;
+    border: solid thin #cfcfcf;
     padding: 10px;
     border-radius: 3px;
+    position: relative;
+    padding-bottom: 10px;
+    position: relative;
+    padding-bottom: 10px;
 }
 
 .newsletter button {
@@ -21,9 +23,10 @@
     height: 30px;
     border: none;
     display:block;
+    margin-bottom: 10px;
 }
 
-.newsletter input {
+.newsletter input#email {
     height: 30px;
     width: 100%;
     border: none;
@@ -35,6 +38,29 @@
 }
 
 .newsletter h3 {
-    margin-top: 0px;
-    
+    margin-top: 0px;   
+}
+
+.newsletter #terms {
+    position: relative;
+    top: 1px;
+}
+
+.newsletter #closex {
+    position: absolute;
+    top: 0;
+    right: 4px;
+}
+
+#questionmark {
+    background-color: #3cb878;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
